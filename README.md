@@ -3,54 +3,10 @@ One page website of Welford Bouquet: https://newwebsite541.wordpress.com/
 Used media screens to make it responsive with the Wordpress CMS for desktop, laptop, tablet and mobile. Other features of the site have the hover on the 'Whitby' box, all of the other boxes and the social media buttons currently link to the homepage and have added the website accordingly to the design.
 
 
-/*General*/
-
--------
-
-.entry-title {
-	display: none;
-}
-
-.site-main {
-	width: 100%;
-	padding: 0;
-	border-right: 0;
-}
-
-.site-title {
-	font-size: 25px;
-}
-
-.search-navigation {
-	border-top: 0;
-}
-
-.site-top {
-	display: none;
-}
-
-.main-navigation .nav-menu>li+li {
-	border-left: 0;
-}
-
-.social-navigation {
-	display: none;
-}
-
-.site-footer {
-	display: none;
-}
-
-/*Sass*/
-
-$primary-color: #79787b;
-
---------
 
 /*Main Content HTML*/
 
 --------
-/*
 <div class="home-two-column">
 <div class="home-two-column-left"><a href="https://newwebsite541.wordpress.com/140-2/"><img class="alignnone" src="https://newwebsite541.files.wordpress.com/2019/05/202b78d3-d59e-44e2-97c0-8c86ca0264ed.jpeg?w=1024" alt="" width="1024" height="1024" data-id="138"></a></div>
 <div class="home-two-column-right">
@@ -132,13 +88,13 @@ Furnishing &amp; upholstery.
 <h5>£250.00</h5>
 </div>
 </div>
-*/
+
 -------
 
 /*Footer Content HTML*/
 
 -------
-/*
+
 <div class="footer-nav">
 	<ul>
 	<li><a href="/.">FAQ</a></li>
@@ -158,12 +114,58 @@ Furnishing &amp; upholstery.
 	<p>COPYRIGHT 2017</p>
 <h5>Made in Yorkshire	</h5>
 </div>
-*/
+
 -------
+
+/*General*/
+
+-------
+
+.entry-title {
+	display: none;
+}
+
+.site-main {
+	width: 100%;
+	padding: 0;
+	border-right: 0;
+}
+
+.site-title {
+	font-size: 25px;
+}
+
+.search-navigation {
+	border-top: 0;
+}
+
+.site-top {
+	display: none;
+}
+
+.main-navigation .nav-menu>li+li {
+	border-left: 0;
+}
+
+.social-navigation {
+	display: none;
+}
+
+.site-footer {
+	display: none;
+}
+
+/*Sass*/
+
+$primary-color: #79787b;
+
+
+--------
 
 /*Main Content CSS*/
 
 -------
+
 
 /*Two column*/
 
